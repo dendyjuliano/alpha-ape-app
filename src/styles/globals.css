@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.ant-spin-nested-loading,
+.ant-row,
+.ant-col {
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.text-stroke {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.bg-opacity-blue::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 134, 194, 0.8);
+  z-index: 0;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.ant-steps-item-icon {
+  @apply !bg-yellow;
+}
+.ant-steps-item-icon::after {
+  @apply !bg-yellow;
+}
+.ant-steps-item-tail::after {
+  @apply !w-1 !bg-yellow;
+}

@@ -1,0 +1,48 @@
+.button {
+  padding: 16px 21px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 30px;
+  height: auto;
+  font-family: inherit;
+  border: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+}
+
+.iconOnly {
+  padding: 8px !important;
+  border-radius: 4px !important;
+  font-size: theme("fontSize.l") !important;
+}
+
+.solidPrimary {
+  background-color: theme("colors.primary.main");
+  color: theme("colors.white");
+  box-shadow: 5px 11px 0px 1px #070e67;
+  -webkit-box-shadow: 5px 11px 0px 1px #070e67;
+  -moz-box-shadow: 5px 11px 0px 1px #070e67;
+}
+
+.solidPrimary:hover {
+  color: theme("colors.white") !important;
+}
+
+.solidSecondary {
+  background-color: theme("colors.yellow");
+  color: theme("colors.white");
+  box-shadow: 5px 6px 0px 1px #c85500;
+  -webkit-box-shadow: 5px 6px 0px 1px #c85500;
+  -moz-box-shadow: 5px 6px 0px 1px #c85500;
+}
+
+.solidSecondary:hover {
+  color: theme("colors.white") !important;
+}
