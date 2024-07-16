@@ -13,22 +13,22 @@ module.exports = {
       xl: "1440px",
     },
     colors: {
-      primary: {
-        main: "#10A5F5",
-        dark: "#0073B0",
-      },
-      yellow: "#F9B712",
-      black: "#000000",
-      white: "#FDF5E2",
+      primary: "#0102FA",
+      secondary: "#10A5F5",
+      black: "#0D0A00",
+      white: "#FFFFFF",
     },
     fontSize: {
       s: "8px",
       m: "12px",
       l: "14px",
       xl: "16px",
-      hs: "50px",
-      hm: "28px",
-      hl: "36px",
+      "4hl": "80px",
+      "3hl": "42px",
+      "2hl": "39px",
+      hm: "29px",
+      hs: "24px",
+      hp: "20px",
     },
     extend: {
       spacing: {
@@ -44,7 +44,7 @@ module.exports = {
         lg: "1px 2px 2px 0px rgba(16, 24, 40, 0.08) inset",
       },
       fontFamily: {
-        poppins: ["var(--font-super-foods)"],
+        poppins: ["var(--font-rammetto-one)"],
       },
       borderRadius: {
         xs: "4px",

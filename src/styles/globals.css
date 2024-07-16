@@ -16,6 +16,10 @@
   }
 }
 
+body {
+  @apply !bg-black;
+}
+
 .ant-spin-nested-loading,
 .ant-row,
 .ant-col {
@@ -42,13 +46,12 @@
 .break-words {
   overflow-wrap: break-word;
 }
-
 .ant-steps-item-icon {
-  @apply !bg-yellow;
+  @apply !bg-[#F9B712];
 }
 .ant-steps-item-icon::after {
-  @apply !bg-yellow;
+  @apply !bg-[#F9B712];
 }
 .ant-steps-item-tail::after {
-  @apply !w-1 !bg-yellow;
+  @apply !w-1 !bg-[#F9B712];
 }

@@ -24,7 +24,7 @@
 }
 
 .solidPrimary {
-  background-color: theme("colors.primary.main");
+  background-color: theme("colors.primary");
   color: theme("colors.white");
   box-shadow: 5px 11px 0px 1px #070e67;
   -webkit-box-shadow: 5px 11px 0px 1px #070e67;
@@ -36,10 +36,10 @@
 }
 
 .solidSecondary {
-  background-color: theme("colors.yellow");
+  background-color: theme("colors.secondary");
   color: theme("colors.white");
   box-shadow: 5px 6px 0px 1px #c85500;
-  -webkit-box-shadow: 5px 6px 0px 1px #c85500;
+  -webkit-box-shadow: 5px 6px 0px 1px #0073b0;
   -moz-box-shadow: 5px 6px 0px 1px #c85500;
 }
 
