@@ -59,7 +59,7 @@ export default function Home() {
             </p>
             <div className="mt-6 border-[6px] border-white rounded-[60px] px-4 py-[10px]">
               <p className="md:text-hs text-[35px] text-white">
-                CA: 0x432432sdafdsafdasfadsfads43234frere3434
+                CA: 0xac27a4E586a9B279cE63eADD767A0F64Ab4DfD0f
               </p>
             </div>
           </div>
